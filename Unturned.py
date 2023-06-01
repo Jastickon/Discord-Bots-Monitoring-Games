@@ -28,7 +28,7 @@ async def online1():
             await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name = f"онлайн {player_count}"))
         except:
             await bot.change_presence(activity=discord.Activity(name = f"Сервер выключен"), status=discord.Status.do_not_disturb)
-            time.sleep(1)
+            time.sleep(10)
             print("Сервер выключен")
             
 
