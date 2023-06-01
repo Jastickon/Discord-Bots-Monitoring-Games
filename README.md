@@ -1,1 +1,2 @@
-# Discord-Bots-Monitoring-Games
+# Discord Bots Monitoring Games
+# Дискорд Боты Для Мониторинга Серверов
