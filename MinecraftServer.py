@@ -18,7 +18,7 @@ async def online1():
         try:
             server = JavaServer.lookup(IP)
             status = server.status()
-            time.sleep(10)
+            time.sleep(20)
             print(f"Данные обновлены до значения {status.players.online}/{status.players.max}")
             players=status.players
             await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name = f"онлайн {players.online}/{players.max}"))
