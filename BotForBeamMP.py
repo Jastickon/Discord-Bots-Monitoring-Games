@@ -8,7 +8,7 @@ from discord.ext import tasks
 import time
 import asyncio
 
-TOKEN = "MTA5NjUxODk4MTk4MjEwNTYzMQ.Gx34Hv.xVubTVURc6zz2bX1HK4MsZmTVpInaQxgvVI8y4"  # Ввидите токен вашего бота
+TOKEN = ""  # Ввидите токен вашего бота
 
 ip = "65.108.199.114"
 port = "25657"
@@ -35,7 +35,7 @@ async def online1():
             print(f"Данные обновлены до значения {player_count}")
             players = player_count
             await bot.change_presence(
-                activity=discord.Activity(type=discord.ActivityType.watching, name=f"онлайн {player_count}"))
+                activity=discord.Activity(type=discord.ActivityType.watching, name=f"онлайн {player_count}",assets=()))
         except:
             await bot.change_presence(activity=discord.Activity(name=f"Сервер выключен"),
                                       status=discord.Status.idle)
