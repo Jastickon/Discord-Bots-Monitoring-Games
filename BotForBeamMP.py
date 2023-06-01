@@ -7,8 +7,8 @@ from discord.ext import commands
 from discord.ext import tasks
 import time
 import asyncio
-
-TOKEN = ""  # Ввидите токен вашего бота
+with open("Token.token","r") as f:
+    TOKEN = f.read()
 
 ip = "65.108.199.114"
 port = "25657"
