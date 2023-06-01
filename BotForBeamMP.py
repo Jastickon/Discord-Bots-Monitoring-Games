@@ -7,7 +7,7 @@ from discord.ext import commands
 from discord.ext import tasks
 import time
 import asyncio
-with open("Token.token","r") as f:
+with open("data.token","r") as f:
     TOKEN = f.read()
 
 ip = "65.108.199.114"
