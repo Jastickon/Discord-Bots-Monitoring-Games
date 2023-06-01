@@ -8,7 +8,7 @@ import time
 import asyncio
 
 TOKEN = "" # Ввидите токен вашего бота
-IP = "46.174.53.204:27015" # Ввидите ваш IP
+IP = "" # Ввидите ваш IP
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
