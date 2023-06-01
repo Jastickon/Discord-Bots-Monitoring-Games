@@ -29,13 +29,13 @@ async def online1():
     global players
     while True:
         try:
-            time.sleep(20)
+            time.sleep(5)
             n,m = getPlayers(ip,port)
             player_count = f"{n}/{m}"
             print(f"Данные обновлены до значения {player_count}")
             players = player_count
             await bot.change_presence(
-                activity=discord.Activity(type=discord.ActivityType.watching, name=f"онлайн {player_count}",assets=()))
+                activity=discord.Activity(type=discord.ActivityType.watching,name=f"онлайн {player_count}",details="Игрет на сервере ПИЗды"))
         except:
             await bot.change_presence(activity=discord.Activity(name=f"Сервер выключен"),
                                       status=discord.Status.idle)
