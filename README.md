@@ -10,3 +10,11 @@
 4. Включите функции как на фото 
 
 ![image](https://github.com/Jastickon/Discord-Bots-Monitoring-Games/assets/128633248/275d4eb3-e498-4f7c-86c1-bf7e35f98870)
+
+
+В планах:
+BeamMP Server
+
+Unturned
+
+Garry`s Mod
