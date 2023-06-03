@@ -13,8 +13,4 @@
 
 
 В планах:
-BeamMP Server
-
-Unturned
-
-Garry`s Mod
+RageMP Server
