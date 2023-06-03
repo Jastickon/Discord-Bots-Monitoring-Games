@@ -3,7 +3,6 @@ ip = "es.gta5grand.com:22005"
 
 def getPlayers(ip:str) -> tuple:
     """
-
     :param ip: "es.gta5grand.com:22005" or "8.8.8.8:8080"
     :return: (cur_player | max | peak)
     """
@@ -14,4 +13,5 @@ def getPlayers(ip:str) -> tuple:
         if i == ip:
             data =conData[i]
             return data['players'],data['maxplayers'],data['peak']
-getPlayers(ip)
+cur,maxx,pek = getPlayers(ip)
+print(f"{cur}/{maxx}")
